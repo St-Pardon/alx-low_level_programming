@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the size of various types
- * Return: 0 if exited properly, non-zero otherwise
+ * main - the containing func
+ * Return: 0 if no error
  */
 int main(void)
 {
