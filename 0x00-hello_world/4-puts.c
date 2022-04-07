@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- * string printing funtion
  * main - The containing function of this programme
  * Return: this gives 0 if sucessful
  */
