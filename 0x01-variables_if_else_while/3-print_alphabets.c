@@ -19,5 +19,5 @@ int main(void)
 	{
 		putchar(j);
 	}
-	putchar("\n");
+	putchar('\n');
 }
