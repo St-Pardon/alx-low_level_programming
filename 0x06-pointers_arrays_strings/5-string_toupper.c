@@ -3,6 +3,7 @@
 /**
  * string_toupper - to upper case
  * @n: param
+ * Return: char
  */
 
 char *string_toupper(char *n)
