@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _strpbrk - searches for string
  * @s: poiter param
@@ -28,7 +28,5 @@ char *_strpbrk(char *s, char *accept)
 		else
 			s++;
 	}
-	if (*s == '\0')
-		return (s);
-	return (0);
+	return (NULL);
 }
