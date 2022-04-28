@@ -3,8 +3,8 @@ int divisors(int n, int m);
 
 /**
  * is_prime_number - prime
- * @n: integer params
- * Return: recursion
+ * @n: param
+ * Return: int
  */
 
 int is_prime_number(int n)
@@ -20,10 +20,10 @@ int is_prime_number(int n)
 }
 
 /**
- * divisors - number is prime?
- * @n: integer params
- * @m: integer params
- * Return: boolean
+ * divisors - checks prime
+ * @n: param
+ * @m: param
+ * Return: 0 or 1
  */
 
 int divisors(int n, int m)
