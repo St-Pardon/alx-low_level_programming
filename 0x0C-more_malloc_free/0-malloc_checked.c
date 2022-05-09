@@ -9,7 +9,9 @@
 
 void *malloc_checked(unsigned int b)
 {
-	unsigned int *i = (unsigned int *) malloc(sizeof(b));
+	void *i = malloc(b);
+	/*size of parameter alreay added from funct call*/
+	/*Type cast not needed*/
 
 	if (i == NULL)
 		exit(98);
