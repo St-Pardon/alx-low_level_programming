@@ -1,5 +1,6 @@
 #include <stdlib.h>
-
+#include <stdio.h>
+#include "main.h"
 /**
  * main - multiply 2 arg of num > 0
  * @argc: param count
