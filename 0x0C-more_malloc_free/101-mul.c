@@ -3,7 +3,9 @@
 #include "main.h"
 #include <math.h>
 #include <string.h>
-#define MAX 1000000
+/*array of 100000000 (4GB) needs a capable system*/
+/*provided space on the vagrant doesn't cut it*/
+#define MAX 10000000
 
 char *multiply(char [], char []);
 
