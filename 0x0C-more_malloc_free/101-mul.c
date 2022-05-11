@@ -59,9 +59,10 @@ int main(int argc, char *argv[])
 
 char *multiply(char a[], char b[])
 {
-	static char mul[MAX];
-	char c[MAX];
-	char temp[MAX];
+	/*static char mul[MAX];*/
+	char *mul;
+	char *c;
+	char *temp;
 	int la, lb;
 	int i, j, k = 0, x = 0, y;
 	long int r = 0;
@@ -69,6 +70,11 @@ char *multiply(char a[], char b[])
 
 	la = strlen(a) - 1;
 	lb = strlen(b) - 1;
+	printf("%d\n%d\n", la, lb);
+
+	mul = malloc(sizeof(char) * ((la + lb) * 5));
+	c = malloc(sizeof(char) * (la + lb) * 2);
+	temp = malloc(sizeof(char) * (la + lb) * 2);
 
 	for (i = 0; i <= la; i++)
 		a[i] = a[i] - 48;
@@ -120,6 +126,7 @@ char *multiply(char a[], char b[])
 		mul[j++] = c[i] + 48;
 	}
 	mul[j] = '\0';
-
+	free(c);
+	free(temp);
 	return (mul);
 }
