@@ -5,6 +5,7 @@
  * @array: param
  * @size: param
  * @cmp: param
+ * Return: int
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
@@ -19,7 +20,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 			if (j)
 			{
 				return (i);
-				break;
 			}
 			else if (i + 1 == size && !j)
 			{
