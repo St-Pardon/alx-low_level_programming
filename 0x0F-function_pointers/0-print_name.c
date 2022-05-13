@@ -8,6 +8,6 @@
 void print_name(char *name, void (*f)(char *))
 {
 	/*check for null posibility*/
-	if (name || f)
+	if (name && f)
 		f(name);
 }
