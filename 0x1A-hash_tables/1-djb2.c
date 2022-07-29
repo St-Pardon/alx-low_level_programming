@@ -1,4 +1,4 @@
-#include "hash_table.h"
+#include "hash_tables.h"
 
 /**
  * hash_djb2 - Computes the hash of an array of bytes using the db2 algorithm.
