@@ -58,7 +58,7 @@ int binary_search_idx(int *arr, size_t l, size_t r, int value)
 }
 
 /**
- * advanced_binary - Searches for value in a sorted array using a binary search.
+ * advanced_binary - Searches for value in a sorted array using a binary search
  * @array: The array to search in
  * @size: The length of the array
  * @value: The value to search for
